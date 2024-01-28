@@ -4,7 +4,7 @@
       <ion-menu content-id="main-content" type="overlay">
         <ion-content>
           <ion-list id="inbox-list">
-            <ion-list-header>MovieVue</ion-list-header>
+            <ion-list-header>MovieVue App</ion-list-header>
             <ion-note>Discover Movies</ion-note>
 
             <ion-menu-toggle :auto-hide="false" v-for="(p, i) in appPages" :key="i">
@@ -85,7 +85,6 @@ export default defineComponent({
         mdIcon: rocketSharp
       }
     ];
-    // Remove Labels
     
     const path = window.location.pathname.split('folder/')[1];
     if (path !== undefined) {
