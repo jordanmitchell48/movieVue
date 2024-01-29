@@ -4,7 +4,7 @@
       <ion-menu content-id="main-content" type="overlay">
         <ion-content>
           <ion-list id="inbox-list">
-            <ion-list-header>MovieVue App</ion-list-header>
+            <ion-list-header>Movie Time</ion-list-header>
             <ion-note>Discover Movies</ion-note>
 
             <ion-menu-toggle :auto-hide="false" v-for="(p, i) in appPages" :key="i">
